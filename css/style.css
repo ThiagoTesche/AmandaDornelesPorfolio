@@ -6,8 +6,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.3em;
   line-height: 1.8em;
-  color: #161616;
-  background-color: transparent;
+  color: #fff;
+  background-color: #333;
   letter-spacing: 0.03em;
 }
 /*** THE END BODY ***/
@@ -239,7 +239,7 @@ h1 {
   letter-spacing: 0.03em;
   line-height: 1.7em;
   font-family: "Roboto", sans-serif;
-  color: #161616;
+  color: #fff;
 }
 
 .h2,
@@ -249,7 +249,7 @@ h2 {
   letter-spacing: 0.03em;
   line-height: 1.7em;
   font-family: "Roboto", sans-serif;
-  color: #161616;
+  color: #fff;
 }
 
 .h3,
@@ -321,6 +321,35 @@ h4,
   margin-bottom: 4.3em;
   height: 11em;
 }
+
+footer {
+  border: 1px solid #333;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer .get-in-touch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+footer .get-in-touch .icon-link img {
+  width: 40px;
+  height: 40px;
+}
+
+footer .get-in-touch .icon-link img:nth-of-type(1) {
+  width: 60px;
+  height: 60px;
+}
+
+.icon-link img:hover {
+  transform: scale(1.1);
+}
 /*** THE END FOOTER BACKGROUND ***/
 
 /*** FOOTER LINKS ***/
@@ -329,7 +358,7 @@ h4,
   letter-spacing: 0.04em;
   line-height: 1.7em;
   text-align: left;
-  color: #161616;
+  color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   height: 2.5em;
@@ -337,7 +366,7 @@ h4,
 }
 
 .ftr-lnk:hover {
-  color: #161616;
+  color: #fff;
   text-decoration: none;
 }
 /*** THE END FOOTER LINKS ***/
@@ -349,7 +378,7 @@ h4,
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  color: #161616;
+  color: #fff;
   text-align: center;
   margin-top: 60px;
 }
@@ -360,7 +389,7 @@ h4,
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  color: #161616;
+  color: #fff;
   text-align: center;
   margin-top: 100px;
 }
@@ -375,7 +404,7 @@ h4,
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  color: #161616;
+  color: #fff;
 }
 /*** THE END WRITE AND PHOTO ***/
 
@@ -386,7 +415,7 @@ h4,
   letter-spacing: 0.03em;
   line-height: 1.7em;
   font-family: "Roboto", sans-serif;
-  color: #161616;
+  color: #fff;
   padding-left: 1%;
 }
 /*** THE END SINGLE WORK TITLE ***/
@@ -438,8 +467,8 @@ h4,
 }
 
 .soc-lnk:hover {
-  color: #161616;
-  border-bottom: 2px solid #161616;
+  color: #fff;
+  border-bottom: 2px solid #fff;
 }
 
 /*** THE END SOCIAL LINKS ***/
@@ -451,7 +480,8 @@ h4,
   letter-spacing: 0.06em;
   line-height: 1.7em;
   font-family: "Roboto", sans-serif;
-  color: #969696;
+  color: #fff;
+  opacity: 0.8;
   padding-left: 3%;
   font-style: italic;
   padding-top: 1%;
@@ -463,7 +493,7 @@ h4,
   letter-spacing: 0.06em;
   line-height: 1.7em;
   font-family: "Roboto", sans-serif;
-  color: #161616;
+  color: #fff;
   padding-left: 3%;
   padding-top: 2%;
   max-width: 100%;
@@ -475,7 +505,7 @@ h4,
   letter-spacing: 0.06em;
   line-height: 1.7em;
   font-family: "Roboto", sans-serif;
-  color: #161616;
+  color: #fff;
   padding-left: 3%;
   padding-top: 3%;
   padding-right: 3%;
@@ -485,7 +515,7 @@ h4,
 
 .shw-cs2 {
   font-size: 2.5em;
-  color: #161616;
+  color: #fff;
   font-weight: 700;
   max-width: 100%;
   padding-left: 3%;
@@ -494,7 +524,7 @@ h4,
 
 .shw-cs3 {
   font-size: 1.1em;
-  color: #161616;
+  color: #fff;
   font-weight: 400;
   max-width: 100%;
   padding-left: 5%;
@@ -547,7 +577,7 @@ h4,
   right: 3%;
   top: 12%;
   font-size: 2.6em;
-  color: #161616;
+  color: #fff;
   font-weight: 700;
   max-width: 100%;
 }
@@ -557,7 +587,7 @@ h4,
   left: 3%;
   top: 12%;
   font-size: 2.6em;
-  color: #161616;
+  color: #fff;
   font-weight: 700;
   max-width: 100%;
 }
@@ -567,7 +597,7 @@ h4,
   left: 3%;
   top: 7%;
   font-size: 2.6em;
-  color: #161616;
+  color: #fff;
   font-weight: 700;
   max-width: 100%;
 }
@@ -608,7 +638,7 @@ h4,
   right: 3%;
   top: 9%;
   font-size: 2.6em;
-  color: #161616;
+  color: #fff;
   font-weight: 700;
   max-width: 100%;
 }
@@ -618,7 +648,7 @@ h4,
   left: 3%;
   top: 9%;
   font-size: 2.6em;
-  color: #161616;
+  color: #fff;
   font-weight: 700;
   max-width: 100%;
 }
@@ -709,7 +739,7 @@ h4,
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-  background: #fff;
+  background: #333;
 }
 /*** THE PAGE LOADING ***/
 
